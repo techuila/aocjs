@@ -37,12 +37,12 @@ Setups an express app server with its routes that you will pass on using `Server
 
 #### `new Server(config, isServeStaticFiles)`
 
-- `env` <Object>
-  - `PORT` <number> Default: `8676`.
-  - `NODE_ENV` <string> Default: `'localhost'`.
-  - `HOST` <string> Default: `'http://localhost:3000'`.
-- `options` <Object>
-  - `cors` <Object> Cors configuration options [here](https://www.npmjs.com/package/cors#configuration-options).
+- `env` `<Object>`
+  - `PORT` `<number>` Default: `8676`.
+  - `NODE_ENV` `<string>` Default: `'localhost'`.
+  - `HOST` `<string>` Default: `'http://localhost:3000'`.
+- `options` `<Object>`
+  - `cors` `<Object>` Cors configuration options [here](https://www.npmjs.com/package/cors#configuration-options).
   - `isServeStaticFiles` <boolean> Default: `false`.
 
 There are 2 ways to setup the server:
