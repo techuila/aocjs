@@ -1,0 +1,41 @@
+{
+  "name": "@techuila/mailer",
+  "version": "1.0.2",
+  "description": "wrapper for node-mailer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techuila/aocjs/tree/main/mailer"
+  },
+  "keywords": [
+    "mail",
+    "techuila",
+    "node",
+    "node-mailer",
+    "wrapper",
+    "node-mailer-wrapper",
+    "mailer"
+  ],
+  "author": "Techuila",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0",
+    "supertest": "^6.1.3"
+  },
+  "peerDependencies": {
+    "node-loopie": "^1.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.6.1"
+  }
+}

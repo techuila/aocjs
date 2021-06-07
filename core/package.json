@@ -1,0 +1,48 @@
+{
+  "name": "@techuila/core",
+  "version": "1.0.0",
+  "description": "Package that contains the core functions to build an express server.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techuila/aocjs/tree/main/core"
+  },
+  "keywords": [
+    "aocjs",
+    "techuila",
+    "core",
+    "express",
+    "server",
+    "routes"
+  ],
+  "author": "Techuila",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "custom-env": "^2.0.1",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "@techuila/mailer": "^1.0.1",
+    "compression": "^1.7.4",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "node-loopie": "^1.0.4",
+    "sequelize": "^6.6.2"
+  }
+}
