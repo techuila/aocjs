@@ -1,7 +1,8 @@
 repo_name: techuila/Techuila
 report_id: 733c2af1242fbfd3d65394ca53a3f349
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T06:28:46+00:00'
+timestamp: '2024-01-05T08:41:28+00:00'
 requested_by: techuila
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/techuila/Techuila
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -28,7 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -42,7 +44,7 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/3211/3591786.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -56,7 +58,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -69,6 +71,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/mailer/package.json
   detection_source: mailer/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -81,7 +84,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: Git
@@ -92,6 +96,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/techuila/Techuila
   detection_source: Repo Metadata
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
@@ -104,8 +109,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: core/package-lock.json
-  detection_source: mailer/package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: Prettier
@@ -118,8 +123,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: core/package-lock.json
-  detection_source: mailer/package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: SuperTest
@@ -132,8 +137,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: core/package-lock.json
-  detection_source: mailer/package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: npm
@@ -144,6 +149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/mailer/package.json
   detection_source: mailer/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -157,7 +163,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -171,7 +177,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17669/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -185,7 +191,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -199,7 +205,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -213,8 +219,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: core/package-lock.json
-  detection_source: mailer/package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: eslint-plugin-import
@@ -227,7 +233,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -241,8 +247,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: core/package-lock.json
-  detection_source: mailer/package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: eslint-plugin-prettier
@@ -255,8 +261,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: core/package-lock.json
-  detection_source: mailer/package.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
+  detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
 - name: express
@@ -269,7 +275,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -290,7 +296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
-  detection_source_url: core/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/core/package-lock.json
   detection_source: core/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
@@ -304,7 +310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16278/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: mailer/package-lock.json
+  detection_source_url: https://github.com/techuila/Techuila/blob/main/mailer/package-lock.json
   detection_source: mailer/package.json
   last_updated_by: techuila
   last_updated_on: 2021-06-07 03:43:38.000000000 Z
